@@ -1,0 +1,64 @@
+.orderlist-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+.orderlist-container .orderlist-list{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 45px;
+    text-align: center;
+}
+.orderlist-container .orderlist-list .orderlist-header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.orderlist-container .orderlist-list .orderlist-header .orderlist-title{
+    flex-basis: 49.9%;
+    text-align: right;
+}
+
+.orderlist-container .orderlist-list .orderlist-header .orderlist-title p{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.orderlist-container .orderlist-list .orderlist-details img{
+    margin-left: 3%;
+}
+.orderlist-container .orderlist-list .orderlist-details p{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 3%;
+    display: inline;
+}
+.orderlist-container .orderlist-list .orderlist-details button{
+    margin-left: 2%;
+    border-radius: 45px;
+    width: 25px;
+    height: 25px;
+}
+.orderlist-container .orderlist-list .orderlist-details button:hover{
+    cursor: pointer;
+    opacity: 40%;
+}
+
+.orderlist-container .orderlist-list .orderlist-total-price p{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-left: 3%;
+}
+.orderlist-container .orderlist-notification-card{
+    
+    text-align: center;
+    height: 150px;
+    border-radius: 45px;
+    border-style: solid;
+    border-width: 0.2px;
+}
+.orderlist-container .orderlist-notification-card h1{
+    margin-top: 50px;
+}

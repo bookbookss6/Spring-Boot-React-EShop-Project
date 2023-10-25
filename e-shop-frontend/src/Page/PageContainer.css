@@ -1,0 +1,14 @@
+.page-container {
+    text-align: center;
+}
+
+.page-container a {
+    text-decoration: none;
+    color: #1db5b5;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.page-container a:hover {
+    opacity: 40%;
+}

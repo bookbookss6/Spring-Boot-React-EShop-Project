@@ -1,0 +1,65 @@
+.detail-container .delete-product-button{
+    position: absolute;
+    top: 100px;  
+    right: 100px;
+}
+
+.detail-container .delete-product-button button{
+    border-radius: 45px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.detail-container .delete-product-button button:hover{
+    cursor: pointer;
+    opacity: 40%;
+}
+
+.detail-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+.detail-container .product-detail{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.detail-container .product-detail .product-detail-info{
+    margin: 50px;
+}
+.detail-container .product-detail .product-detail-info p{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.detail-container .product-detail .product-detail-info button{
+    border-radius: 45px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+}
+.detail-container .product-detail .product-detail-info button:hover{
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.detail-container .product-detail .product-detail-image img{
+    width: 400px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 800px) {
+    .detail-container .product-detail{
+        display: block;
+       
+    }
+}
+
+

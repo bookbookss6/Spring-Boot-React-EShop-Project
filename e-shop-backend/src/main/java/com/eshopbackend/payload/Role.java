@@ -1,0 +1,5 @@
+package com.eshopbackend.payload;
+
+public enum Role {
+    ROLE_USER,ROLE_ADMIN
+}

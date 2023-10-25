@@ -20,7 +20,7 @@
 
 <p>데이터베이스 : mysql </p>
 
-<p>프론트엔드 : React /p>
+<p>프론트엔드 : React </p>
 
 <p>자바 버전 : openjdk 17.0.8 </p>
 
@@ -144,7 +144,7 @@
   </tr>
   <tr>
     <td>홈페이지</td>
-    <td>/products/{page}}</td>
+    <td>/products/{page}</td>
     <td>홈페이지에 모든 상품 불러오기</td>
   </tr>
    <tr>
